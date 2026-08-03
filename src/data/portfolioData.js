@@ -50,7 +50,7 @@ export const portfolioData = {
     frontend: [
       { name: "HTML5 / CSS", level: 85 },
       { name: "JavaScript", level: 75 },
-      { name: "Vue 3", level: 65 },
+      { name: "Vue 3", level: 75 },
       { name: "React", level: 50 },
       { name: "Tailwind CSS", level: 80 },
       { name: "Bootstrap", level: 80 },
