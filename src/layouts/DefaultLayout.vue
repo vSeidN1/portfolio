@@ -39,7 +39,7 @@ onMounted(() => {
       >
         <router-link
           to="/"
-          class="text-xl font-bold font-display tracking-tight text-gradient-primary hover:scale-102 transition-transform cursor-pointer"
+          class="text-xl font-bold font-display tracking-tight text-indigo-700 dark:text-indigo-300 hover:text-primary-600 dark:hover:text-primary-200 transition-colors cursor-pointer"
         >
           {{ portfolioData.personalInfo.name }}.
         </router-link>

@@ -60,8 +60,8 @@ const selectCategory = (cat) => {
           My <span class="text-gradient-primary">Projects</span>
         </h1>
         <p class="text-sm text-slate-550 dark:text-slate-400">
-          A showcase of real-world applications, tools, and platforms I have
-          architected and developed.
+          A few applications I've worked on, from sports and satellite
+          information sites to tools for sharing and delivery.
         </p>
       </div>
 

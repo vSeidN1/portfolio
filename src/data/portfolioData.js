@@ -6,9 +6,9 @@ export const portfolioData = {
   personalInfo: {
     name: "Seid Nur",
     title: "Web Developer",
-    subtitle: "Crafting Premium Digital Experiences",
+    subtitle: "Web developer based in Addis Ababa",
     shortBio:
-      "I design and build high-performance, accessible, and visually stunning websites & web applications. Specialized in Vue.js, Node.js and modern frontend frameworks.",
+      "I build web applications with Vue.js, Node.js, and MySQL, from the first page a user sees to the data behind it.",
     avatar: avatar,
     resumeUrl: "/CV Resume.pdf",
     socials: {
@@ -24,23 +24,22 @@ export const portfolioData = {
     {
       value: "2026",
       label: "Graduate",
-      description: "B.Sc. in Software Engineering ",
+      description: "B.Sc. in Software Engineering",
     },
     {
       value: "1",
-      label: "Internship Completed",
-      description: "Professional Web development experience",
+      label: "Internship",
+      description: "Backend development at Devlogics Technology",
     },
     {
       value: "4",
-      label: "Major Projects",
-      description:
-        "Two Full-stack websites & Two Backend Projects with Node.js built and deployed",
+      label: "Projects",
+      description: "Full-stack websites and backend projects",
     },
 
     {
       value: "5+",
-      label: "Technologies Used",
+      label: "Technologies",
       description:
         "HTML, CSS, JS, Vue.js, Node.js, MySQL, Tailwind CSS, Bootstrap, and more",
     },
@@ -71,10 +70,10 @@ export const portfolioData = {
       id: 1,
       title: "Meda Sport Ethiopia",
       description:
-        "A modern sports website for showcasing events, News, Leagues history, and Match Highlights.",
+        "A place for Ethiopian sports fans to follow local events, league history, news, and match highlights.",
       image: medasport,
       tech: [
-        "HandleBars",
+        "Vue.js",
         "Bootstrap",
         "Node.js + Express",
         "MySQL",
@@ -88,15 +87,15 @@ export const portfolioData = {
       id: 2,
       title: "Abisat Info",
       description:
-        "Abisat Info is a platform that provides satellite dish software, loader and information about satellite channels, receivers and d/t services.",
+        "A satellite resource site with receiver software, loaders, channel information, and DTH service details.",
       image: abisat,
       tech: [
-        "HandleBars",
+        "Vue.js",
         "Bootstrap",
         "Node.js + Express",
         "MySQL",
         "Animate.css",
-        "Font Awsome",
+        "Font Awesome",
       ],
       category: "Full-Stack",
       demoUrl: "https://abisat-info.onrender.com",
@@ -106,7 +105,7 @@ export const portfolioData = {
       id: 3,
       title: "Mini Delivery Tracker",
       description:
-        "An internal logistic tracking system built using Flutter (Web & Mobile) and Node.js with MySQL designed for organizations to manage delivery requests and track item delivery statuses in real-time .",
+        "A delivery tracking system for organizations to manage requests and follow delivery status across web and mobile.",
       image:
         "https://play-lh.googleusercontent.com/kfYP3QKpWVujIyQaehUoXP4oGByYtejf5OpMEHgzYOrvfmbtuY4y2rLFhPIc63tlGStVxMoHAXSOuBNjol9-AA=w240-h480-rw",
       tech: ["Flutter", "Node.js + Express", "MySQL"],
@@ -117,7 +116,7 @@ export const portfolioData = {
       id: 4,
       title: "University Resource sharing & Exchange Platform",
       description:
-        "A platform that allows students and university communities to share and exchange resources such as books, notes, and other study materials and also any devices like electronics and clothes... within the university community.",
+        "A university community platform for sharing and exchanging study materials, electronics, clothing, and other useful items.",
       image:
         "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80",
       tech: ["React", "Tailwind CSS", "Node.js + Express", "MySQL", "MongoDB"],
@@ -154,8 +153,8 @@ export const portfolioData = {
       location: "Addis Ababa, Ethiopia",
       period: "Jun 2025 - Jul 2025",
       description:
-        "Works as a remote full-stack developer, for a satellite dish telegram channel.",
-      tech: ["Handlebars", "Node.js", "MySQL"],
+        "Worked remotely on a satellite information platform, using Vue.js, Node.js, and MySQL.",
+      tech: ["Vue.js", "Node.js", "MySQL"],
     },
   ],
 
@@ -173,13 +172,13 @@ export const portfolioData = {
   certifications: [
     {
       id: 1,
-      name: "Udacity Certeficate",
+      name: "Udacity Certificate",
       issuer: "Udacity",
       year: "2024",
     },
     {
       id: 2,
-      name: "e-learning Certeficate",
+      name: "E-learning Certificate",
       issuer: "e-learning program from MOE",
       year: "2024",
     },

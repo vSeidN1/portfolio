@@ -8,16 +8,18 @@ const { isDark, toggleTheme } = useTheme()
 <template>
   <button
     @click="toggleTheme"
-    class="relative p-2.5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white/40 dark:bg-slate-900/40 text-slate-800 dark:text-slate-200 hover:text-primary-500 dark:hover:text-primary-400 hover:scale-105 active:scale-95 transition-all duration-300 backdrop-blur-md cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary-500/50"
-    aria-label="Toggle dark mode"
+    class="relative p-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white/80 dark:bg-slate-900/80 text-slate-700 dark:text-slate-200 hover:border-primary-400 dark:hover:border-primary-500 transition-colors duration-300 backdrop-blur-md cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500/60"
+    :aria-label="isDark ? 'Switch to light theme' : 'Switch to dark theme'"
+    :title="isDark ? 'Switch to light theme' : 'Switch to dark theme'"
+    :aria-pressed="isDark"
   >
     <Sun
       v-if="isDark"
-      class="w-5 h-5 transition-transform duration-500 rotate-0 hover:rotate-45"
+      class="w-5 h-5 text-amber-300 transition-transform duration-500 hover:rotate-45"
     />
     <Moon
       v-else
-      class="w-5 h-5 transition-transform duration-500 rotate-0 hover:-rotate-12"
+      class="w-5 h-5 text-indigo-700 transition-transform duration-500 hover:-rotate-12"
     />
   </button>
 </template>

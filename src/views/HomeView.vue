@@ -25,7 +25,7 @@ const featuredProjects = portfolioData.projects.slice(0, 2)
         </span>
         
         <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight text-slate-800 dark:text-slate-100 font-display">
-          Hi, I'm <span class="text-gradient-primary">{{ personalInfo.name }}</span>
+          Hi, I'm <span class="text-indigo-700 dark:text-indigo-300">{{ personalInfo.name }}</span>
         </h1>
         <h2 class="text-xl sm:text-2xl font-bold text-slate-600 dark:text-slate-300">
           {{ personalInfo.title }}

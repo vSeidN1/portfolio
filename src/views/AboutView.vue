@@ -39,19 +39,10 @@ const testimonials = portfolioData.testimonials;
           <p
             class="text-sm md:text-base text-slate-650 dark:text-slate-350 leading-relaxed"
           >
-            I am a passionate Web developer specializing in building modern
-            Websites & web applications that prioritize performance, user
-            experience, and accessibility.
-          </p>
-          <p
-            class="text-sm md:text-base text-slate-650 dark:text-slate-350 leading-relaxed"
-          >
-            I'm a web developer dedicated to building modern, responsive, and
-            scalable websites and Web applications. I enjoy transforming ideas into seamless
-            digital experiences by developing intuitive user interfaces and
-            backend APIs. My approach emphasizes clean architecture,
-            performance, security, and maintainable code to deliver reliable,
-            high-quality solutions.
+            I'm a web developer based in Addis Ababa and a 2026 software
+            engineering graduate from Jigjiga University. I work mainly with
+            Vue.js, Node.js, and MySQL, and enjoy building practical tools that
+            are straightforward to use and maintain.
           </p>
         </div>
 
@@ -69,11 +60,10 @@ const testimonials = portfolioData.testimonials;
           <h2
             class="text-3xl font-extrabold text-slate-800 dark:text-slate-100 font-display"
           >
-            My Skill Set
+            Tools I Use
           </h2>
           <p class="text-sm text-slate-550 dark:text-slate-400">
-            A comprehensive overview of the languages, frameworks, databases,
-            and DevOps utilities I utilize regularly.
+            The languages, frameworks, and tools I use in my projects.
           </p>
         </div>
 
